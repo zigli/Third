@@ -18,6 +18,11 @@ public class Main {
         Person pasha = new Person("Pasha");
         System.out.println(pasha.name);
 
+        Student mystudent = new Student(130, "Toy", 2);
+        System.out.println(mystudent.name);
+        System.out.println(mystudent.height);
+        mystudent.tell();
+
     }
 
     private static void say(){

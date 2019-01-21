@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc08ba25-9da6-4cd5-90c0-f0b423a10974" name="Default Changelist" comment="Constuctors">
+    <list default="true" id="dc08ba25-9da6-4cd5-90c0-f0b423a10974" name="Default Changelist" comment="Nasledovaniye">
+      <change afterPath="$PROJECT_DIR$/src/cf/tilgiz/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cf/tilgiz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/tilgiz/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cf/tilgiz/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/tilgiz/Person.java" afterDir="false" />
@@ -15,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cf/tilgiz/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="165">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <element signature="e#127#128#0" expanded="true" />
                 <element signature="e#169#170#0" expanded="true" />
@@ -31,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cf/tilgiz/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="e#114#115#0" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
@@ -41,6 +42,15 @@
                 <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#289#290#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cf/tilgiz/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -60,8 +70,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cf/tilgiz/Main.java" />
         <option value="$PROJECT_DIR$/src/cf/tilgiz/Person.java" />
+        <option value="$PROJECT_DIR$/src/cf/tilgiz/Main.java" />
+        <option value="$PROJECT_DIR$/src/cf/tilgiz/Student.java" />
       </list>
     </option>
   </component>
@@ -104,7 +115,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548077287663" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548078675437" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -167,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548077073631</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Constuctors">
+      <created>1548077331470</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548077331471</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -206,13 +224,14 @@
     <MESSAGE value="commit from Idea" />
     <MESSAGE value="methods" />
     <MESSAGE value="Constuctors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constuctors" />
+    <MESSAGE value="Nasledovaniye" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nasledovaniye" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cf/tilgiz/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="e#114#115#0" expanded="true" />
             <element signature="e#150#151#0" expanded="true" />
@@ -226,12 +245,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cf/tilgiz/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="165">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
             <element signature="e#127#128#0" expanded="true" />
             <element signature="e#169#170#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cf/tilgiz/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
